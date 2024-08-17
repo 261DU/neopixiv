@@ -14,7 +14,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         .get<ArrayBuffer>(`https://s.pximg.net/${__PATH}`, {
           responseType: 'arraybuffer',
           headers: {
-            referer: 'https://www.pixiv.net/',
+            referer: 'https://pixiv-img.120261.xyz/',
             'user-agent': USER_AGENT,
           },
         })
